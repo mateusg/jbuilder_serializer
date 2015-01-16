@@ -42,13 +42,13 @@ RSpec.describe Jbuilder::Serializer do
     before do
       serializer_class.locals do
         @name = 'Daenerys Targaryen'
-        @polemicos = 'name'
+        @description = 'Mother of Dragons'
       end
     end
 
     it 'executes locals block on renderer context' do
       expect(renderer.instance_variable_get('@name')).to eq 'Daenerys Targaryen'
-      expect(renderer.instance_variable_get('@polemicos')).to eq 'name'
+      expect(renderer.instance_variable_get('@description')).to eq 'Mother of Dragons'
     end
   end
 
