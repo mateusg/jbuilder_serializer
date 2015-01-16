@@ -5,3 +5,7 @@ script:
 rvm:
   - 2.1.4
   - ruby-head
+addons:
+   code_climate:
+     repo_token:
+       secure: TajoaxOSu1mUv5lhe8hF33fqXnX0GXTjtGHGqQGiSiSfm/Ghqvwr11Cww2GwPKbjT3y+69VjRa0/ow242yCEW8uzjmZeuF3lNlJbRkG77jn4pV/YVQxv1aPh4ykKRu8ClUIZ3IutfnNlh+MI4LV92ftzeWXUfJfihBQ6+GQwsXM=
