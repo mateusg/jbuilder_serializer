@@ -1,5 +1,6 @@
 # Jbuilder Serializer
 
+[![Build Status](https://travis-ci.org/mateusg/jbuilder_serializer.svg?branch=master)](https://travis-ci.org/mateusg/jbuilder_serializer)
 [![Code Climate](https://codeclimate.com/github/mateusg/jbuilder_serializer/badges/gpa.svg)](https://codeclimate.com/github/mateusg/jbuilder_serializer)
 [![Test Coverage](https://codeclimate.com/github/mateusg/jbuilder_serializer/badges/coverage.svg)](https://codeclimate.com/github/mateusg/jbuilder_serializer)
 
